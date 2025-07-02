@@ -17,21 +17,67 @@ header > nav{
     align-items: center;
     padding: 10px;
     height: 60px;
-    background-color: black;
+    background-color: #080808;
 }
-header > nav > input{
-    height: 60%;
+.nav-left{
+    display: flex;
+    align-items: center;
+}
+.nav-left > input{
+    height: 30px;
     border-radius: 40px;
     border: none;
     padding-left: 40px;
     background: rgb(82, 82, 82) url("../imagens/search_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png") no-repeat 10px center;
     background-size: 20px 20px;
 }
-header > nav > a{
+.links{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.links  a{
     text-decoration: none;
     color: white;
 }
-header > nav > a:hover{
-    text-decoration: none;
+.links  a:hover{
+    text-decoration: underline;
     color: white;
+}
+.login-sign-in{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+ a.login{
+    background-color: rgb(238, 7, 7);
+    text-decoration: none;
+    color: black;
+    padding: 12px 20px;
+    border-radius: 10px;
+}
+a.login:hover{
+    background-color: rgb(189, 0, 0);
+    color: white;
+}
+.nav-banner{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 350px;
+    background: url("../imagens/flixpet-banner-700.png") no-repeat center center;
+    background-size: cover;
+}
+.banner-content{
+    width: 400px;
+    margin-left: 50px;
+}
+.banner-content > h1{
+    color: white;
+    margin-bottom: 20px;
+}
+.banner-content > p{
+    color: white;
+    line-height: 25px;
+    margin-bottom: 20px;
 }
