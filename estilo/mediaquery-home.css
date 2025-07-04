@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+/*Para telas menores e celulares*/
+@media screen and (max-width: 740px){
+
+    .content-links{
+        display: none;
+    }
+    .login-sign-in{
+        display: none;
+    }
+    .nav-left {
+        flex: 1;
+        justify-content: space-between;
+    }
+}

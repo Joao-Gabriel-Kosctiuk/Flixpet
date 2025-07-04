@@ -13,7 +13,17 @@ header > nav{
     align-items: center;
     padding: 10px;
     height: 60px;
+    width: 100%;
+    overflow: visible;
     background-color: #080808;
+}
+.menu-toggle{
+    display: none;
+    font-size: 30px;
+    border: none;
+    color: white;
+    background-color: #080808;
+    cursor: pointer;
 }
 .nav-left{
     display: flex;
